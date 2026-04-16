@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'ParenseDeManos';
+    src: url('Montserrat-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: 'Parrafos';
+    src: url('OpenSans.ttf');
+}
+
+body{
+    background-image: url('stopthehands.png'); 
+    background-repeat: repeat; 
+    background-attachment: fixed;
+    color: #333333;
+    background-color: white;
+    
+}
+
+main{
+    max-width: 1300px; /* Ancho máximo para que sea legible */
+    margin: 20px auto; /* Centra el bloque */
+    background-color: white; /* Caja blanca para limpiar el fondo */
+    padding: 40px; /* Aire para que el texto no toque el borde */
+    border-radius: 8px; /* Bordes redondeados modernos */
+    box-shadow: 0 0 20px rgba(0,0,0,0.1); /* Sombra para que flote */
+}
+
+h1, h2, h3 {
+    font-family: 'ParenseDeManos', sans-serif;
+}
+
+p {
+    font-family: 'Parrafos', sans-serif;
+}
+
+img {
+    width: 100%; /* Para que no desborde en móvil */
+    max-width: 600px; /* Para que no se vea gigante en PC */
+    display: block;
+    margin: 30px auto; /* Centrada */
+    border: 4px solid #f0f0f0; /* Un color neutro que combine con tu fondo */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+
+header{
+    background-color: #720505; /* Un rojo bordo elegante */
+    color: #ffffff;            /* Texto blanco para que contraste bien */
+    padding: 40px 20px;        /* ¡Acá está el secreto! 40px arriba/abajo, 20px lados */
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2); /* Sombra para que se separe del fondo */
+}
+
+footer {
+    background-color: #44044d; /* Un gris oscuro para que sea sobrio */
+    color: #ffffff;
+    padding: 30px;
+    text-align: center;
+    margin-top: 50px; /* Separación con el resto del contenido */
+    font-size: 14px;
+}
